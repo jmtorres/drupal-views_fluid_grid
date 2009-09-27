@@ -4,3 +4,4 @@
 ===========
 
 - Initial checkin.
+- Added advanced_help support.
