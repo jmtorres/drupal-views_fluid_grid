@@ -78,14 +78,12 @@ The following stylesheets are provided:
 
   It contains the base CSS classes to style the fluid grid.
 
-
 - views_fluid_grid.size.css
 
   It contains additional CSS classes that are used to define the width and
-  height of the items in the grid. These sizes are defined for each in the
-  settings form of the style plugin. If you need to add more sizes to the
-  list, please see CUSTOMIZATION section below.
-
+  height of the items in the grid. These sizes are defined for each option
+  in the settings form of the style plugin. If you need to add more sizes to
+  the list, please see ADVANCED section below.
 
 - views_fluid_grid.advanced.css
 
