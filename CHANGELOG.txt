@@ -5,3 +5,4 @@
 
 - Initial checkin.
 - Added advanced_help support.
+- Change CSS class used for fluid grid container to just views-fluid-grid.

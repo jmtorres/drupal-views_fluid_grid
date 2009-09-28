@@ -1,7 +1,10 @@
 /* $Id$ */
 
-div.views-fluid-grid-wrapper {
+/* Fluid grid container. */
+div.views-fluid-grid {
 }
+
+/* Fluid grid is based on an HTML list. */
 ul.views-fluid-grid-list {
   margin-top: 0;
   margin-bottom: 0;
