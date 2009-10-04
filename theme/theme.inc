@@ -13,9 +13,10 @@
  */
 function template_preprocess_views_fluid_grid_plugin_style(&$vars) {
   $options = $vars['view']->style_plugin->options;
+  $module_path = drupal_get_path('module', 'views_fluid_grid');
 
   // Send base stylesheets to the page.
-  drupal_add_css(drupal_get_path('module', 'views_fluid_grid') .'/css/views_fluid_grid.base.css');
+  drupal_add_css($module_path .'/css/views_fluid_grid.base.css');
 
   // Set up CSS class for the HTML list element.
   $vars['list_class'] = 'views-fluid-grid-list';
@@ -23,7 +24,7 @@ function template_preprocess_views_fluid_grid_plugin_style(&$vars) {
   // Items size.
   if (!empty($options['items_width']) || !empty($options['items_height'])) {
     // Send size related stylesheets to the page.
-    drupal_add_css(drupal_get_path('module', 'views_fluid_grid') .'/css/views_fluid_grid.size.css');
+    drupal_add_css($module_path .'/css/views_fluid_grid.size.css');
 
     if (!empty($options['items_width'])) {
       $vars['list_class'] .= ' views-fluid-grid-items-width-'. $options['items_width'];
@@ -35,7 +36,7 @@ function template_preprocess_views_fluid_grid_plugin_style(&$vars) {
 
   if (!empty($options['advanced_layout'])) {
     // Send advanced layout stylesheets to the page.
-    drupal_add_css(drupal_get_path('module', 'views_fluid_grid') .'/css/views_fluid_grid.advanced.css');
+    drupal_add_css($module_path .'/css/views_fluid_grid.advanced.css');
 
     // Alignment for items in the list and items' content.
     if (!empty($options['list_alignment'])) {
