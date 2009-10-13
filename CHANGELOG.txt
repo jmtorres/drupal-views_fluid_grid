@@ -3,6 +3,9 @@
 6.x-1.x-dev
 ===========
 
+Features:
+- #603074 Enable a grouping field in the view.
+
 
 6.x-1.0
 =======

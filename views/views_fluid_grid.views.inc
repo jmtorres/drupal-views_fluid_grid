@@ -24,7 +24,7 @@ function views_fluid_grid_views_plugins() {
         'theme' => 'views_fluid_grid_plugin_style',
         'uses row plugin' => TRUE,
         'uses options' => TRUE,
-        'uses grouping' => FALSE,
+        'uses grouping' => TRUE,
         'type' => 'normal',
         'help topic' => 'style-fluid-grid',
       ),

@@ -4,6 +4,11 @@
 div.views-fluid-grid {
 }
 
+/* View title, label of grouping field. */
+div.views-fluid-grid h3 {
+  text-align: center;
+}
+
 /* Fluid grid is based on an HTML list. */
 ul.views-fluid-grid-list {
   margin-top: 0;
