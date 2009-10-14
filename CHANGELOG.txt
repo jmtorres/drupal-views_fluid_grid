@@ -6,6 +6,9 @@
 Features:
 - #603074 Enable a grouping field in the view.
 
+Bugfixes:
+- #602236 IE7 issue - Thumbnails are only showing below each other in one column.
+
 
 6.x-1.0
 =======

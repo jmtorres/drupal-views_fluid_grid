@@ -28,13 +28,36 @@ li.views-fluid-grid-item {
   border: 1px solid #aaa;
 }
 
-/* List items use inline block style. */
+/**
+ * List items use inline block style.
+ *
+ * Works in all modern browsers (except IE7 and lower).
+ */
 li.views-fluid-grid-inline {
+  /* inline-block does not work when applied to block elements in IE7 and lower. */
   display: inline-block;
 }
-/* Holly hack to enforce hasLayout for IE7 and lower. \*/
+
+/**
+ * Targeting IE7.
+ *
+ * 1) html > body selector hides declaration from IE6 and lower.
+ * 2) Asterisk Hack exploits a bug in IE7 and lower.
+ */
+html > body li.views-fluid-grid-inline {
+  *display: inline;
+  *zoom: 1;
+}
+
+/**
+ * Targeting IE4-6 (excluding MacIE5).
+ *
+ * 1) Commented Backslash Hack hides declaration from MacIE5.
+ * 2) * html selector exploits a bug in IE4-6.
+ * 3) Enforce hasLayout using display inline and zoom applied to block elements.
+ * \*/
 * html li.views-fluid-grid-inline {
   display: inline;
   zoom: 1;
 }
-/* */
+/* Ends Commented Backslash Hack. */
