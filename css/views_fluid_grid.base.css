@@ -11,8 +11,8 @@ div.views-fluid-grid h3 {
 
 /* Fluid grid is based on an HTML list. */
 ul.views-fluid-grid-list {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Default item style. */

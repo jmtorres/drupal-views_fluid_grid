@@ -8,6 +8,7 @@ Features:
 
 Bugfixes:
 - #602236 IE7 issue - Thumbnails are only showing below each other in one column.
+- #649680 by BWPanda: Reset padding and margin in top-level UL of the grid.
 
 
 6.x-1.0
