@@ -1,7 +1,7 @@
 // $Id$
 
-6.x-1.x-dev
-===========
+6.x-1.1
+=======
 
 Features:
 - #603074 Enable a grouping field in the view.
