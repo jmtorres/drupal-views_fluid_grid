@@ -1,5 +1,4 @@
 <?php
-// $Id$
 /**
  * @file
  * Default view template to display a list of items in a fluid grid.

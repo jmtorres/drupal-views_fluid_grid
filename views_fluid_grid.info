@@ -1,4 +1,3 @@
-; $Id$
 name = Views Fluid Grid
 description = Exposes a views style plugin to render items on a fluid grid.
 dependencies[] = views
