@@ -39,7 +39,7 @@ http://drupal.org/node/377574
 REQUIREMENTS
 ============
 
-- Views.
+- Views 3.
   http://drupal.org/project/views
 
 
