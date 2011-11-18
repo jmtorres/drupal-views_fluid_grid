@@ -1,0 +1,9 @@
+name = Views Fluid Grid
+description = Exposes a views style plugin to render items on a fluid grid.
+dependencies[] = views
+package = Views
+core = 7.x
+files[] = views_fluid_grid.module
+files[] = theme/theme.inc
+files[] = views/views_fluid_grid.views.inc
+files[] = views/views_fluid_grid_plugin_style.inc
