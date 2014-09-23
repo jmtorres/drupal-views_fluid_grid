@@ -54,7 +54,7 @@ ul.views-fluid-grid-items-border-radius li.views-fluid-grid-item {
 ul.views-fluid-grid-list-left { text-align: left; }
 ul.views-fluid-grid-list-right { text-align: right; }
 ul.views-fluid-grid-list-center { text-align: center; }
-ul.views-fluid-grid-list-justify { text-align: justify; }
+ul.views-fluid-grid-list-justify { text-align: justify; text-align-last: center;}
 
 /* Items alignment options. */
 ul.views-fluid-grid-items-left li.views-fluid-grid-item { text-align: left; }
